@@ -385,12 +385,12 @@
                 
                 this.x += this.vx;
                 this.y += this.vy;
-                <!-- 벽 끝에서 튕기는 로직
+                /* 벽 끝에서 튕기는 로직
                 if (this.x > width || this.x < 0) this.vx = -this.vx;
                 if (this.y > height || this.y < 0) this.vy = -this.vy;
-                -->
+                */
 
-                <!-- 벽 통과 후 반대편 이동 -->
+                //벽 통과 후 반대편 이동 
                 if (this.x < 0) {
                     this.x = width; 
                 } else if (this.x > width) {
@@ -711,3 +711,4 @@
 </body>
 
 </html>
+
